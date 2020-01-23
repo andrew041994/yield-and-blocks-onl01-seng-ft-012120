@@ -1,5 +1,11 @@
 def hello_t(array)
-  array.each { |name| puts name }
+  i=0
+
+  while i < array.size
+    yield array[i]
+    i+=1
+
+  end
 
 end
 
