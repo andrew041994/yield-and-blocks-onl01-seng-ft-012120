@@ -1,5 +1,5 @@
 def hello_t(array)
-  array.each { |name| puts name }
+  array.each { |name| puts name.upcase }
 
 end
 
